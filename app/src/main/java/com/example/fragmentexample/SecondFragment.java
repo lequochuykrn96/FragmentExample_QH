@@ -11,9 +11,7 @@ public class SecondFragment extends Fragment  {
 
     private static TextView textview;
     @Override
-    public View onCreateView(LayoutInflater inflater,
-                             ViewGroup container,
-                             Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.layout_second_fragment, container, false);
 
         textview = (TextView) view.findViewById(R.id.tv1);
